@@ -7,7 +7,7 @@
 */
 /*
 Plugin name: Carrousel
-Author: Xavier Paulin
+Author: Xavier Paulin.git
 Plugin URI: https:github.com/e2194727Xavier/carrousel-31w/tree/tp1
 Description: Permet d'afficher dans une boîte modale les images d'une galerie avec un système de navigation
 */
