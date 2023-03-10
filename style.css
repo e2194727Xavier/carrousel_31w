@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/*  la feuille de style du carrousel */
+/* Le conteneur principale du carrousel */
+.carrousel {
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  transform: scale(0);
+  transition: transform 0.5s;
+  background-color: aquamarine;
+}
+
+.carrousel--ouvrir {
+  transform: scale(1);
+}
+
+/* bouton de fermeture de la boîte modale */
+/* conteneur des images du carrousel */
+.carrousel__figure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.carrousel__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+  object-fit: cover;
+  z-index: 9;
+}
+
+.carrousel__img--activer {
+  opacity: 1;
+}
+
+/* le conteneur des boutons radio */
+/* .carrousel__form {} *//*# sourceMappingURL=style.css.map */
