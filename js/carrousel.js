@@ -1,5 +1,5 @@
 (function(){
-    // fonction IFEE
+    // fonction IFEE fonction auto-executante
     console.log('début du carrousel')
     let bouton__ouvrir = document.querySelector('.bouton__ouvrir')
     let elmCarrousel = document.querySelector('.carrousel')
