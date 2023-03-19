@@ -19,6 +19,28 @@
     left: 25%;
   }
 }
+.galerie img {cursor: pointer;}
+
+figure {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+  figure {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  figure {
+    flex-wrap: nowrap;
+  }
+}
+
+
 
 .carrousel--ouvrir {
   transform: scale(1);

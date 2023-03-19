@@ -34,7 +34,7 @@ add_action('wp_enqueue_scripts', 'carrousel_enqueue');
 
 function creation_carrousel()
 {
-return '<button class="bouton__ouvrir">Ouvrir</button>
+return '
     <div class="carrousel">
     <button class="bouton__x">X</button>
     <figure class="carrousel__figure"></figure>
