@@ -94,3 +94,28 @@ figure {
   justify-content: center;
   z-index: 12;
 } /*# sourceMappingURL=style.css.map */
+
+/* conteneur des boutons précédent et suivant */
+.controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(-50%);
+  z-index: 11;
+}
+
+/* boutons précédent et suivant */
+.bouton__precedent,
+.bouton__prochain {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
